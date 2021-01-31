@@ -90,6 +90,7 @@ body {
   padding: 5%;
   height: 95vh;
   color: var(--color-white);
+  background: var(--color-secondary);
   background: url(../assets/images/heromobile.png);
   background-size: cover;
   background-position: center;
