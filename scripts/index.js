@@ -1,28 +1,18 @@
-const productContent = document.querySelectorAll(".product_content");
-const toggleContentOff = Array.from(
-  document.querySelectorAll(".product-content-escape")
-);
-const toggleContentOn = Array.from(document.querySelectorAll(".icon_arrow-up"));
+const product = document.querySelectorAll(".product");
 
-toggleContentOn.map((content) => {
-  content.addEventListener("click", showContent);
+product.forEach((e) => {
+  e.addEventListener("click", function () {
+    const panel = this.querySelector('[data-action="product-reveal"]');
+    const image = this.querySelector("img");
+    if (panel.classList.contains("show-content")) {
+      panel.classList.remove("show-content");
+      image.style.transform = ``;
+    } else {
+      panel.classList.add("show-content");
+      image.style.transform = `scale(0.72)`;
+    }
+  });
 });
-
-toggleContentOff.map((content) => {
-  content.addEventListener("click", hideContent);
-});
-
-function showContent(e) {
-  e.target.parentElement.parentElement.parentElement.children[2].classList.add(
-    "show-content"
-  );
-}
-
-function hideContent(e) {
-  e.target.parentElement.parentElement.parentElement.classList.remove(
-    "show-content"
-  );
-}
 
 //NAVIGATION
 
