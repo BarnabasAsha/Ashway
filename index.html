@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/utilities.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/glide.core.min.css">
+    <script src="https://unpkg.com/@glidejs/glide@3.4.1/dist/glide.js"></script>
     <title>Ashway Integrated Services</title>
 </head>
 
@@ -13,13 +15,13 @@
     <header class="header">
         <div class="header-wrapper">
             <button role="menubar" class="btn header_menubar"><img src="./assets/images/menu.svg" alt=""></button>
-        <a href="" class="header_logo" role="banner">ASHWAY</a>
-        <nav class="header_nav">
-            <a href="/">Home</a>
-            <a href="./src/about.html">Who we are</a>
-            <a href="./src/projects.html">What we do</a>
-        </nav>
-        <button class="btn btn-small header_action"><a href="">Get in touch</a></button>
+            <a href="" class="header_logo" role="banner">ASHWAY</a>
+            <nav class="header_nav">
+                <a href="/">Home</a>
+                <a href="./src/about.html">Who we are</a>
+                <a href="./src/projects.html">What we do</a>
+            </nav>
+            <button class="btn btn-small header_action"><a href="">Get in touch</a></button>
         </div>
     </header>
 
@@ -31,234 +33,299 @@
             <a href="./src/contact.html" class="text-large">Contact us</a>
         </nav>
     </section>
-   
+
     <main class="main">
-         
-    <section class="hero">
-        <div class="wrapper">
-            <h1>Crafting Cutting-edge Products</h1>
-            <p class="text-large">A team of innovative and creative craftmen building beautiful products from steel and metal while
-                maintaining
-                durability</p>
-            <button class="btn btn-large hero_action"><a href="./src/contact.html">Get in touch >></a></button>
-        </div>
-    </section>
-   
-    <section class="section-products">
-        <div class="wrapper">
-            <h2 class="heading-small">What we do</h2>
 
-            <div class="section-products-grid">
-                <section class="product">
-                    <div class="product-img">
-                        <img src="./assets/images/gate.jpg" alt="">
-                    </div>
-                    <div class="product-title">
-                        <h3>Gates</h3>
-                        <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path
-                                d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
-                            </path>
-                        </svg>
-                    </div>
-                    <div class="product-content" data-action="product-reveal">
-                        <p class="text-small">We design and build solid secure gate systems, protectors and stail rails with various styles
-                            and patterns. We also deliver custom fabrication to your specification</p>
-                            <div class="product-content-escape">
-                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z"></path>
-                                </svg>
-                            </div>
-                    </div>
-                </section>
-                <section class="product">
-                    <div class="product-img">
-                        <img src="./assets/images/door.jpg" alt="">
-                    </div>
-                    <div class="product-title">
-                        <h3>Doors</h3>
-                        <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path
-                                d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
-                            </path>
-                        </svg>
-                    </div>
-                    <div class="product-content" data-action="product-reveal">
-                        <p class="text-small">We design sophisticated secure and attractive doors for your home and office. Our products
-                            connotes your house design and enhance its appeal</p>
-                            <div class="product-content-escape">
-                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z"></path>
-                                </svg>
-                            </div>
-                    </div>
-                </section>
+        <section class="hero">
+            <div class="wrapper">
+                <h1>Crafting Cutting-edge Products</h1>
+                <p class="text-large">A team of innovative and creative craftmen building beautiful products from steel
+                    and metal while
+                    maintaining
+                    durability</p>
+                <button class="btn btn-large hero_action"><a href="./src/contact.html">Get in touch >></a></button>
+            </div>
+        </section>
 
-                <section class="product">
-                    <div class="product-img">
-                        <img src="./assets/images/bgashway.jpg" alt="">
-                    </div>
-                    <div class="product-title">
-                        <h3>Tank stands</h3>
-                        <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path
-                                d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
-                            </path>
-                        </svg>
-                    </div>
-                    <div class="product-content" data-action="product-reveal">
-                        <p class="text-small">We produce and install solid tank stands ideal for various terrains including coastal areas
-                        </p>
-                        <div class="product-content-escape">
-                            <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z"></path>
+        <section class="section-products">
+            <div class="wrapper">
+                <h2 class="heading-small">What we do</h2>
+
+                <div class="section-products-grid">
+                    <section class="product">
+                        <div class="product-img">
+                            <img src="./assets/images/gate.jpg" alt="">
+                        </div>
+                        <div class="product-title">
+                            <h3>Gates</h3>
+                            <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
+                                </path>
                             </svg>
                         </div>
-                    </div>
-                </section>
+                        <div class="product-content" data-action="product-reveal">
+                            <p class="text-small">We design and build solid secure gate systems, protectors and stail
+                                rails with various styles
+                                and patterns. We also deliver custom fabrication to your specification</p>
+                            <div class="product-content-escape">
+                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="product">
+                        <div class="product-img">
+                            <img src="./assets/images/door.jpg" alt="">
+                        </div>
+                        <div class="product-title">
+                            <h3>Doors</h3>
+                            <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="product-content" data-action="product-reveal">
+                            <p class="text-small">We design sophisticated secure and attractive doors for your home and
+                                office. Our products
+                                connotes your house design and enhance its appeal</p>
+                            <div class="product-content-escape">
+                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
 
-                <section class="product">
-                    <div class="product-img">
-                        <img src="./assets/images/cabinet.jpg" alt="">
-                    </div>
-                    <div class="product-title">
-                        <h3>Furnitures</h3>
-                        <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path
-                                d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
-                            </path>
-                        </svg>
-                    </div>
-                    <div class="product-content" data-action="product-reveal">
-                        <p class="text-small">From Secure office desks, secure cabinets, home and office decorations there is no limit to
-                            our creative edge. We deliver products of optimum quality</p>
+                    <section class="product">
+                        <div class="product-img">
+                            <img src="./assets/images/bgashway.jpg" alt="">
+                        </div>
+                        <div class="product-title">
+                            <h3>Tank stands</h3>
+                            <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="product-content" data-action="product-reveal">
+                            <p class="text-small">We produce and install solid tank stands ideal for various terrains
+                                including coastal areas
+                            </p>
                             <div class="product-content-escape">
-                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z"></path>
+                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z">
+                                    </path>
                                 </svg>
                             </div>
-                    </div>
-                </section>
-                <section class="product">
-                    <div class="product-img">
-                        <img src="./assets/images/shelves.jpg" alt="">
-                    </div>
-                    <div class="product-title">
-                        <h3>Shelves and racks</h3>
-                        <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path
-                                d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
-                            </path>
-                        </svg>
-                    </div>
-                    <div class="product-content" data-action="product-reveal">
-                        <p class="text-small">Our state-of-the-art shelves and racks are designed and built for easily assembly. Our
-                            products brings order to your supermarket. We also design to custom specifications</p>
+                        </div>
+                    </section>
+
+                    <section class="product">
+                        <div class="product-img">
+                            <img src="./assets/images/cabinet.jpg" alt="">
+                        </div>
+                        <div class="product-title">
+                            <h3>Furnitures</h3>
+                            <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="product-content" data-action="product-reveal">
+                            <p class="text-small">From Secure office desks, secure cabinets, home and office decorations
+                                there is no limit to
+                                our creative edge. We deliver products of optimum quality</p>
                             <div class="product-content-escape">
-                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z"></path>
+                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z">
+                                    </path>
                                 </svg>
                             </div>
-                    </div>
-                </section>
-                <section class="product">
-                    <div class="product-img">
-                        <img src="./assets/images/laser.jpg" alt="">
-                    </div>
-                    <div class="product-title">
-                        <h3>Laser cutting</h3>
-                        <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path
-                                d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
-                            </path>
-                        </svg>
-                    </div>
-                    <div class="product-content" data-action="product-reveal">
-                        <p class="text-small">With our standard laser cutting machine we deliver a clean, clear, optimum and crisp cut for
-                            engineers and industrial
-                            designers no matter the pattern you desire</p>
+                        </div>
+                    </section>
+                    <section class="product">
+                        <div class="product-img">
+                            <img src="./assets/images/shelves.jpg" alt="">
+                        </div>
+                        <div class="product-title">
+                            <h3>Shelves and racks</h3>
+                            <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="product-content" data-action="product-reveal">
+                            <p class="text-small">Our state-of-the-art shelves and racks are designed and built for
+                                easily assembly. Our
+                                products brings order to your supermarket. We also design to custom specifications</p>
                             <div class="product-content-escape">
-                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z"></path>
+                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z">
+                                    </path>
                                 </svg>
                             </div>
-                    </div>
-                </section>
+                        </div>
+                    </section>
+                    <section class="product">
+                        <div class="product-img">
+                            <img src="./assets/images/laser.jpg" alt="">
+                        </div>
+                        <div class="product-title">
+                            <h3>Laser cutting</h3>
+                            <svg class="icon icon_arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M277.375 427V167.296l119.702 119.702L427 256 256 85 85 256l29.924 29.922 119.701-118.626V427h42.75z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="product-content" data-action="product-reveal">
+                            <p class="text-small">With our standard laser cutting machine we deliver a clean, clear,
+                                optimum and crisp cut for
+                                engineers and industrial
+                                designers no matter the pattern you desire</p>
+                            <div class="product-content-escape">
+                                <svg class="icon icon_arrow-down" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M277.375 85v259.704l119.702-119.702L427 256 256 427 85 256l29.924-29.922 119.701 118.626V85h42.75z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <button class="btn btn-large product_action"><a href="./src/projects.html">View our projects
+                        >></a></button>
             </div>
-            <button class="btn btn-large product_action"><a href="./src/projects.html">View our projects >></a></button>
-        </div>
-    </section>
+        </section>
 
 
-    <section class="section-drive">
-        <div class="wrapper">
-            <h2 class="heading-small">What drives us</h2>
-            <!-- <h2>We value our clients and see them as our partners, we respect their needs, budget and appeal.  We are confident to offer products with true worth and value that would stand the test of time</h2> -->
-            <div class="drive-wrapper">
-                <div class="drive-item">
-                    <div class="col-left">
-                        <h3 class="heading-large">Value</h3>
-                    </div>
-                    <div class="col-right">
-                        <p class="text-large">
-                            <strong>We esteem with high regard value</strong>
-                            <br><br>
-                            <q>The process of iteration is never complete until the final product is one that brings optimum
-                                value</q></p>
+        <section class="section-drive">
+            <div class="wrapper">
+                <h2 class="heading-small">What drives us</h2>
+                <!-- <h2>We value our clients and see them as our partners, we respect their needs, budget and appeal.  We are confident to offer products with true worth and value that would stand the test of time</h2> -->
+                <div class="drive-wrapper">
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <div class="drive-item">
+                                        <div class="col-left">
+                                            <h3 class="heading-large">Value</h3>
+                                        </div>
+                                        <div class="col-right">
+                                            <p class="text-large">
+                                                <strong>We esteem with high regard value</strong>
+                                                <br><br>
+                                                <q>The process of iteration is never complete until the final product is
+                                                    one
+                                                    that brings
+                                                    optimum
+                                                    value</q>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="drive-item">
+                                        <div class="col-left">
+                                            <h3 class="heading-large">Value</h3>
+                                        </div>
+                                        <div class="col-right">
+                                            <p class="text-large">
+                                                <strong>We esteem with high regard value</strong>
+                                                <br><br>
+                                                <q>The process of iteration is never complete until the final product is
+                                                    one
+                                                    that brings
+                                                    optimum
+                                                    value</q>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="drive-item">
+                                        <div class="col-left">
+                                            <h3 class="heading-large">Value</h3>
+                                        </div>
+                                        <div class="col-right">
+                                            <p class="text-large">
+                                                <strong>We esteem with high regard value</strong>
+                                                <br><br>
+                                                <q>The process of iteration is never complete until the final product is
+                                                    one
+                                                    that brings
+                                                    optimum
+                                                    value</q>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="glide__bullets" data-glide-el="controls[nav]">
+                                <button class="glide__bullet" data-glide-dir="=0"></button>
+                                <button class="glide__bullet" data-glide-dir="=1"></button>
+                                <button class="glide__bullet" data-glide-dir="=2"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- <div class="drive-item">
-                    <div class="col-left">
-                        <h3 class="">Value</h3>
-                    </div>
-                    <div class="col-right">
-                        <p>The process of iteration is never complete until the final product is one that brings optimum
-                            value</p>
-                    </div>
-                </div>
-                <div class="drive-item">
-                    <div class="col-left">
-                        <h3 class="">Value</h3>
-                    </div>
-                    <div class="col-right">
-                        <p>The process of iteration is never complete until the final product is one that brings optimum
-                            value</p>
-                    </div>
-                </div> -->
+                <button class="btn btn-large drive_action"><a href="./src/about.html">Who we are >></a></button>
             </div>
-            <button class="btn btn-large drive_action"><a href="./src/about.html">Who we are >></a></button>
-        </div>
-    </section>
+        </section>
 
-    <section class="section-companies">
-        <div class="wrapper">
-            <h2 class="heading-small">Our partners</h2>
-            <h3 class="heading-large">Companies we've been able to keep in our grasp.</h3>
-        <div class="companies_wrapper">
-            <div class="total company_logo"><img src="./assets/images/total-logo.svg" alt=""></div>
-            <div class="lb company_logo"><img src="./assets/images/lb.png" alt=""></div>
-        </div>
-        </div>
-    </section>
+        <section class="section-companies">
+            <div class="wrapper">
+                <h2 class="heading-small">Our partners</h2>
+                <h3 class="heading-large">Companies we've been able to keep in our grasp.</h3>
+                <div class="companies_wrapper">
+                    <div class="total company_logo"><img src="./assets/images/total-logo.svg" alt=""></div>
+                    <div class="lb company_logo"><img src="./assets/images/lb.png" alt=""></div>
+                </div>
+            </div>
+        </section>
     </main>
-<div class="footer-cover">
-    
-</div>
+    <div class="footer-cover">
+
+    </div>
     <footer class="section-footer">
         <div class="wrapper">
             <div class="footer">
                 <h2 class="heading-large">Have that idea you want to bring to life?</h2>
-            <button class="btn btn-large footer_action"><a href="./src/contact.html">Contact us >></a></button>
-            <small class="footer_base">
-                &copy; 2021 ASHWAY Integrated Services. All rights reserved.
-            </small>
+                <button class="btn btn-large footer_action"><a href="./src/contact.html">Contact us >></a></button>
+                <small class="footer_base">
+                    &copy; 2021 ASHWAY Integrated Services. All rights reserved.
+                </small>
             </div>
         </div>
         <!-- <svg class="icon icon__arrow--right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408">
             <polygon points="204,0 168.3,35.7 311.1,178.5 0,178.5 0,229.5 311.1,229.5 168.3,372.3 204,408 408,204"></polygon>
         </svg> -->
     </footer>
-<script src="./scripts/index.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script>
+        new Glide('.glide').mount()
+    </script>
 </body>
 
 </html>
