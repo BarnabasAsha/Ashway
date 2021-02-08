@@ -54,7 +54,7 @@ body {
 }
 
 .section-products h2 {
-  color: var(--color-secondary);
+  color: #363636;
 }
 
 .section-products-grid {
@@ -205,7 +205,7 @@ body {
 
 .glide__bullets {
   position: absolute;
-  right: 0;
+  right: -5%;
   top: 50%;
   display: flex;
   flex-direction: column;
@@ -249,7 +249,7 @@ body {
 
 .section-companies {
   background-color: var(--color-ash);
-  color: var(--color-secondary);
+  color: #363636;
 }
 
 .companies_wrapper {

@@ -247,7 +247,7 @@
                                 <li class="glide__slide">
                                     <div class="drive-item">
                                         <div class="col-left">
-                                            <h3 class="heading-large">Value</h3>
+                                            <h3 class="heading-large">Quality</h3>
                                         </div>
                                         <div class="col-right">
                                             <p class="text-large">
@@ -265,7 +265,7 @@
                                 <li class="glide__slide">
                                     <div class="drive-item">
                                         <div class="col-left">
-                                            <h3 class="heading-large">Value</h3>
+                                            <h3 class="heading-large">Durability</h3>
                                         </div>
                                         <div class="col-right">
                                             <p class="text-large">
@@ -324,7 +324,9 @@
     </footer>
     <script src="./scripts/index.js"></script>
     <script>
-        new Glide('.glide').mount()
+        new Glide('.glide', {
+            autoplay: 15000,
+        }).mount()
     </script>
 </body>
 

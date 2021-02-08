@@ -26,10 +26,10 @@ openNav.addEventListener("click", toggleNav);
 
 function toggleNav() {
   if (state === false) {
-    nav.style.display = "block";
+    nav.classList.add("show-nav");
     state = true;
   } else {
-    nav.style.display = "none";
+    nav.classList.remove("show-nav");
     state = false;
   }
 }
