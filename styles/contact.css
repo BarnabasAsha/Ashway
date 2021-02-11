@@ -1,0 +1,16 @@
+:root {
+  --color-white: #ffffff;
+  --color-ash: #fafafa;
+  --color-primary: #54cefa;
+  --color-secondary: #216582;
+}
+
+body {
+  position: relative;
+  width: 100%;
+}
+
+.section-hero {
+  margin-top: 5em;
+  background: var(--color-ash);
+}

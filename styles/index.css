@@ -10,18 +10,18 @@ body {
 }
 
 .main {
-  position: static;
+  position: relative;
 }
 
 .hero {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   padding: 5%;
   height: 95vh;
   color: var(--color-white);
-  background: var(--color-secondary);
+  background-color: var(--color-secondary) !important;
   background: url(../assets/images/heromobile.png);
   background-size: cover;
   background-position: center;
@@ -35,6 +35,10 @@ body {
   line-height: 4rem;
   color: var(--color-white);
   margin-bottom: 1em;
+}
+
+.hero p {
+  margin: 0 auto;
 }
 
 .hero_action {
@@ -69,7 +73,7 @@ body {
 
 .product {
   width: 300px;
-  height: 400px;
+  height: 350px;
   position: relative;
   overflow: hidden;
   transition: all ease-in-out 0.25s;
@@ -115,6 +119,7 @@ body {
   height: 100%;
   background-color: rgb(33, 101, 130);
   color: var(--color-white);
+  text-align: center;
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -161,6 +166,10 @@ body {
   padding: 1em 0;
 }
 
+.section-drive h2 {
+  margin: 0;
+}
+
 .section-drive::after {
   content: "";
   position: absolute;
@@ -174,17 +183,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 1;
   z-index: -1;
-  opacity: 0.85;
 }
 
 .drive-wrapper {
   position: relative;
-  padding: 3em 0;
+  padding: 1em 0;
 }
 
 .drive-item {
-  margin: 2em 0;
+  margin: 0;
 }
 
 .drive-item p,
@@ -252,6 +261,11 @@ body {
   color: #363636;
 }
 
+.section-companies h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .companies_wrapper {
   margin-bottom: 2em;
   display: flex;
@@ -288,6 +302,10 @@ body {
   }
   .section-products-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .product {
+    height: 400px;
   }
 
   .drive-item {

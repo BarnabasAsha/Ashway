@@ -15,8 +15,13 @@
   align-items: center;
 }
 
+.section-hero h1 {
+  text-align: center;
+}
+
 .hero p {
   max-width: 500px;
+  text-align: center;
 }
 
 .section-drive {
@@ -44,6 +49,10 @@
   padding: 2em 0;
   background: var(--color-primary);
   color: #363636;
+}
+
+.section-led h2 {
+  text-align: center;
 }
 
 .section-led .leaders {
