@@ -138,6 +138,15 @@ ul {
   align-items: baseline;
 }
 
+.header_menubar svg {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
 .header_logo {
   font-size: 1.3rem;
   color: var(--color-white);
