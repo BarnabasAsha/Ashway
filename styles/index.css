@@ -164,6 +164,7 @@ body {
   position: relative;
   color: var(--color-white);
   padding: 1em 0;
+  z-index: 38;
 }
 
 .section-drive h2 {
@@ -183,7 +184,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 1;
+  filter: blur(3px);
   z-index: -1;
 }
 
@@ -203,7 +204,7 @@ body {
 
 .drive_action {
   display: block;
-  margin: 2em auto;
+  margin: 3em auto;
   background: var(--color-ash);
 }
 

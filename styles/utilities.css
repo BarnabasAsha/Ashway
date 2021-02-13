@@ -57,6 +57,10 @@ ul {
   text-transform: uppercase;
 }
 
+.heading-medium {
+  font-size: 2.2rem;
+}
+
 .heading-large {
   font-size: 2.5rem;
   margin: 2em 0;
@@ -77,6 +81,10 @@ ul {
   .heading-large {
     font-size: 3.5rem;
     max-width: 600px;
+  }
+
+  .heading-medium {
+    font-size: 2.5rem;
   }
 
   .heading-small {
@@ -120,6 +128,9 @@ ul {
   width: 40px;
   height: 40px;
   background: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .header_logo {

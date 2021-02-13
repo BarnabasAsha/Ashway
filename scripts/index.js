@@ -33,3 +33,20 @@ function toggleNav() {
     state = false;
   }
 }
+
+//Google map
+
+function initMap() {
+  const location = { lat: 6.44852, lng: 3.27726 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 16,
+    center: location,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+  });
+
+  const marker = new google.maps.Marker({
+    position: location,
+    map: map,
+    animation: google.maps.Animation.DROP,
+  });
+}
