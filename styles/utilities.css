@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Unna", serif;
 }
 
 :root {
@@ -18,6 +22,7 @@ img {
 }
 
 a {
+  font-family: "Unna", serif;
   text-decoration: none;
   color: #000;
 }
